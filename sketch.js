@@ -7,9 +7,9 @@ var coinImage;
 
 function preload() {
   backgroundImage = loadImage("./assets/background.jpg");
-  plane1_img = loadImage("../assets/plane1.png");
-  plane2_img = loadImage("../assets/plane2.png");
-  coinImage = loadImage("../assets/coin.png");
+  plane1_img = loadImage("./assets/plane1.png");
+  plane2_img = loadImage("./assets/plane2.png");
+  coinImage = loadImage("./assets/coin.png");
 }
 
 function setup() {
